@@ -45,11 +45,17 @@
         width: 100vw;
         height: 100vh;
         align-items: center;
+        display: flex;
+        grid-template-columns: 40vw 60vw;
+        justify-content: center;
     }
 
     #marshmallow-img {
-        height: 80vh;    
+        height: 80vh;
+        padding-right: 20px;    
     }
+
+
     </style>
 
   </head>
@@ -59,18 +65,24 @@
         <div id="center">
             <h1>BIND</h1>
             <h6>The Mango Marshmallow Team</h6>
-            <row>
-                <button class="btn btn-primary"> MIGZ</button>
-                <button class="btn btn-primary"> CELLIN</button>
-                <button class="btn btn-primary"> LOUIE</button>
-                <button class="btn btn-primary"> SHEREENA </button>
-            </row>
         </div>
     </div>
     
+    
     <div id="marshmallow-tower-page">
         <div>
-        <img src="./ASSETS/louie-digicam/IMG_1436.JPG" id="marshmallow-img"/>
+            <img src="./ASSETS/louie-digicam/IMG_1436.JPG" id="marshmallow-img"/>
+        </div>
+        <div class="d-grid gap-2 col-4">
+            
+            <button class="btn btn-lg btn-primary"> MIGZ</button>
+
+            <button class="btn btn-lg btn-primary"> CELLIN</button>
+
+            <button class="btn btn-lg btn-primary"> LOUIE</button>
+
+            <button class="btn btn-lg btn-primary"> SHEREENA</button>
+
         </div>
     </div>
 
